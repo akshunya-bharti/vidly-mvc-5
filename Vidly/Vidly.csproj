@@ -204,9 +204,34 @@
     <Compile Include="Migrations\201902020540357_ChangeBirthDateToNullableDateTimeInCustomer.Designer.cs">
       <DependentUpon>201902020540357_ChangeBirthDateToNullableDateTimeInCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903020441122_AddPropsToMovie.cs" />
+    <Compile Include="Migrations\201903020441122_AddPropsToMovie.Designer.cs">
+      <DependentUpon>201903020441122_AddPropsToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903020530568_AddGenre.cs" />
+    <Compile Include="Migrations\201903020530568_AddGenre.Designer.cs">
+      <DependentUpon>201903020530568_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903020532120_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\201903020532120_PopulateGenreTable.Designer.cs">
+      <DependentUpon>201903020532120_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903020544313_MapGenreToMovie.cs" />
+    <Compile Include="Migrations\201903020544313_MapGenreToMovie.Designer.cs">
+      <DependentUpon>201903020544313_MapGenreToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903020557131_CorrectingGenreDataAsPerMosh.cs" />
+    <Compile Include="Migrations\201903020557131_CorrectingGenreDataAsPerMosh.Designer.cs">
+      <DependentUpon>201903020557131_CorrectingGenreDataAsPerMosh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903020608520_PropsDateTimeNullableToDateTimeInMovie.cs" />
+    <Compile Include="Migrations\201903020608520_PropsDateTimeNullableToDateTimeInMovie.Designer.cs">
+      <DependentUpon>201903020608520_PropsDateTimeNullableToDateTimeInMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -276,6 +301,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -315,6 +341,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902020540357_ChangeBirthDateToNullableDateTimeInCustomer.resx">
       <DependentUpon>201902020540357_ChangeBirthDateToNullableDateTimeInCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020441122_AddPropsToMovie.resx">
+      <DependentUpon>201903020441122_AddPropsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020530568_AddGenre.resx">
+      <DependentUpon>201903020530568_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020532120_PopulateGenreTable.resx">
+      <DependentUpon>201903020532120_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020544313_MapGenreToMovie.resx">
+      <DependentUpon>201903020544313_MapGenreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020557131_CorrectingGenreDataAsPerMosh.resx">
+      <DependentUpon>201903020557131_CorrectingGenreDataAsPerMosh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903020608520_PropsDateTimeNullableToDateTimeInMovie.resx">
+      <DependentUpon>201903020608520_PropsDateTimeNullableToDateTimeInMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
